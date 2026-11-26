@@ -1,0 +1,43 @@
+Package: remesa
+Version: 1.0~preview3
+Architecture: i386
+Maintainer: reMESA development
+Depends: remesa-hre-cross (= 1.0~topology2.egl34), remesa-desktop (= 1.0~preview3)
+Filename: pool/main/remesa_1.0~preview3_i386.deb
+Size: 780
+MD5sum: 5b853428bb25fa8c4be4f30ffea12545
+SHA1: a9eebe7f27ac5dd5fc6114a7a4b493b7202fad13
+SHA256: 07be475b5b53241c61d51875f435d7396ddc39eac964fa2b201f40ca7c8072a3
+Description: reMESA experimental graphics distribution
+ Installs private runtime and desktop tools; native boot activation is separate.
+
+Package: remesa-desktop
+Version: 1.0~preview3
+Architecture: all
+Maintainer: reMESA development
+Depends: bash, python3, labwc, waybar, foot, thunar, fuzzel, swaybg, mako-notifier, wdisplays, pavucontrol, libnotify-bin, dbus, acl, build-essential, libsdl2-2.0-0
+Filename: pool/main/remesa-desktop_1.0~preview3_all.deb
+Size: 281684
+MD5sum: e8f69919707a8b582d829b8b534612ee
+SHA1: a5457308d8ec9826faddb84157ba3b4964a6c9b3
+SHA256: c5f69f199ae68c6d8342c3287c8f1d63d2b9aa04ca2f53d611b414acc8c0d90b
+Description: Experimental reMESA desktop installer and tests
+ Installation does not modify boot configuration; explicit activation is required.
+
+Package: remesa-hre-cross
+Version: 1.0~topology2.egl34
+Architecture: i386
+Maintainer: reMESA development
+Breaks: remesa-hre-v123 (<= 12.3~rc7)
+Replaces: remesa-hre-v123 (<= 12.3~rc7)
+Filename: pool/main/remesa-hre-cross_1.0~topology2.egl34_i386.deb
+Size: 3594604
+MD5sum: 8f502b2803635fe10fa1a739987ce4a0
+SHA1: eca86060915f3ec7ab734b536a605a7e6d277b75
+SHA256: f23f83e2e997737f22fc1f440e40e139fd8f48236a2e4cc612b8ea4b00d3ad5a
+Section: graphics
+Priority: optional
+Description: Private experimental reMESA EGL GLES2 runtime
+ Trusted laboratory preview; physical GPU qualification and rootless private IOCTLs pending.
+ Runtime dependencies must be checked on target.
+

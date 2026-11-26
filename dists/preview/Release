@@ -1,0 +1,13 @@
+Origin: reMESA
+Label: reMESA
+Suite: preview
+Codename: preview
+Architectures: i386
+Components: main
+Date: Thu, 26 Nov 2026 08:50:19 +0000
+SHA256:
+ afedcf381a5716190eb262b62e4cdf526e8a8dc97043075149766347cd3c9002 1826 main/binary-i386/Packages
+ 4e9726e06c9ded96b81a576440a6549b4d8e11b27e06a9878f864f1a6b234acb 957 main/binary-i386/Packages.gz
+SHA512:
+ 07416c6c1f2590475bbd3c3be8f6c0ecb6a18abfa76e7c747f368f13d2c857d91832c8ab9920ec6e1bdb893d1326b67bf08c38c3c0410e2ad19764d838de2f0b 1826 main/binary-i386/Packages
+ c169f0b6bc80c2212ff4ba0b234112fe505f62bb6d541ab0607accecfa983ef4645ce29621ab7aea0b13b12cdd935cb60e6413be859d3b6b5e99f6406cb0e158 957 main/binary-i386/Packages.gz
